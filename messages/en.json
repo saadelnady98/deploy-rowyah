@@ -1,0 +1,699 @@
+{
+  "navbar": {
+    "homeLink": "Home",
+    "services": {
+      "title": "Our Services",
+      "dropdown": {
+        "service1": "Market Research and Opinion Polls",
+        "service2": "Information Technology",
+        "service3": "Consulting Services"
+      }
+    },
+    "blogs": "Blogs",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "ourPortfolio": "Our Projects",
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "Pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "services": "Services",
+    "singleServices": "Single Services",
+    "projects": "Projects",
+    "blogs": "Blogs"
+  },
+  "contact": {
+    "contact": {
+      "title": "Start your journey with us in simple steps!",
+      "description1": "Submit your project details, and we'll contact you. Start now and get ready to launch your digital project with confidence!",
+      "description2": "our team is ready to support you from idea to execution to ensure your project's success",
+      "formTitle": "Contact us ",
+      "buttonTitle": "Send  ",
+      "price_request": "Request a Quote",
+      "start_your_project": "Start your project",
+      "whatWeOffer": "What We Offer"
+    },
+    "form": {
+      "title": "Contact us",
+      "description": "our team is ready to support you from idea to execution to ensure your project's success",
+      "full_name": "Full Name",
+      "full_name_placeholder": " Enter your name ",
+      "email": "Email",
+      "email_placeholder": "Enter email ",
+      "phone_number": "Phone Number",
+      "phone_number_placeholder": " Enter phone number ",
+      "phone_required": "This field is required",
+      "invalid_phone": "Invalid phone number",
+      "details_tiltle": "Project Details",
+      "details_tiltle_placeholder": " Enter project details ",
+      "start_your_project": "Start your project",
+      "send": "Send",
+      "buttonTitle": "Send  "
+    },
+    "heroForm": {
+      "title": "Request a Quote",
+      "description": "",
+      "full_name": "Full Name",
+      "full_name_placeholder": "Enter your name",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "phone_number": "Phone Number",
+      "phone_number_placeholder": "Enter your phone number",
+      "phone_required": "This field is required",
+      "invalid_phone": "Invalid phone number",
+      "required_services": "Required Services",
+      "required_services_placeholder": "Select service",
+      "message": "Message",
+      "message_placeholder": "Write your message here",
+      "button": "Send"
+    },
+    "servicesForm": {
+      "title": "Do you have a tech project or a digital idea?",
+      "whatWeOffer": "What We Offer You",
+      "home": "Home",
+      "services": "Services",
+      "description": "Contact us now—our team is ready to support you from idea to execution to ensure your project's success.",
+      "full_name": "Full Name",
+      "full_name_placeholder": "Enter your name",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "phone_number": "Phone Number",
+      "phone_number_placeholder": "Enter your phone number",
+      "phone_required": "This field is required",
+      "invalid_phone": "Invalid phone number",
+      "work_stages": "Work Stages",
+      "button": "Start Your Project"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Cart": {
+    "form_title": "Booking Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "phone_number": "Phone Number",
+    "phone_required": "Phone number is required",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending"
+  },
+  "singleProject": {
+    "project_description": "Project Description",
+    "project_steps": "Project Steps",
+    "problems_solutions": "Problems and Solutions",
+    "problems": "Problems",
+    "solutions": "Solutions",
+    "ui_design": "UI Design",
+    "client_feedback": "Client Feedback",
+    "related_projects": "Related Projects"
+  },
+  "aboutUs": {
+    "ready_for_future": "Ready to build the future?",
+    "contact_us": "Contact Us",
+    "request_quote": "Request a Quote"
+  },
+  "common": {
+    "loading": "Loading",
+    "error": "Error occurred",
+    "success": "Success"
+  },
+  "error": {
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDesc": "Sorry, the page you are looking for does not exist",
+    "backHome": "Back to Home",
+    "error": "Error Occurred",
+    "errorDesc": "Sorry, something went wrong. Please try again",
+    "tryAgain": "Try Again"
+  },
+  "footer": {
+    "copyright": "Copyright 2025 Ruwyah - Digital Vision . All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms and conditions",
+    "homeLink": "Home",
+    "services": "Services",
+    "blogs": "Blogs",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "ourPortfolio": "Our Projects",
+    "FAQs": "FAQs"
+  },
+  "home": {
+    "hero": {
+      "title": "Empower your ideas with smart digital solutions!",
+      "description": "At Ruwyah - Digital Vision, we offer custom digital services to meet your business needs. Whether it's a website, mobile app, or custom solution, we're here to help your growth. Contact us now!",
+      "button": "Contact Us",
+      "button2": "Request a Quote"
+    },
+
+    "ourservices": {
+      "title": "Our Services",
+      "description": "We offer a wide range of services designed to support the growth of your business, from software development to technical consulting. We help you adopt smart solutions that enhance your business efficiency and give you a competitive edge in the market.",
+      "button": "Read More",
+      "service1": {
+        "title": "Market Research and Opinion Polls",
+        "description": "We provide comprehensive market research services characterized by premium quality and globally recognized methodologies to ensure accurate and reliable results that meet our clients' needs.",
+        "list": {
+          "title1": "Brand and Communication Research",
+          "title2": "Product Development Research",
+          "title3": "Customer Experience Research",
+          "title4": "Media User Behavior Research",
+          "title5": "Opinion Polls",
+          "title6": "Trends and Usage Patterns Research"
+        }
+      },
+      "service2": {
+        "title": "Information Technology",
+        "description": "We provide integrated IT solutions combining innovation and efficiency to ensure seamless professional digital experiences. We focus on building strong digital presence that enhances your business success.",
+        "list": {
+          "title1": "Website Design and Development",
+          "title2": "Smart App Design and Development",
+          "title3": "Social Media Platform Management",
+          "title4": "Digital Advertising Campaign Management",
+          "title5": "Search Engine Optimization (SEO)",
+          "title6": "Smart Solutions and Digital Transformation",
+          "title7": "Cybersecurity and Data Protection"
+        }
+      },
+      "service3": {
+        "title": "Consulting Services",
+        "description": "We offer diverse consulting services leveraging our extensive expertise and deep knowledge to empower clients in making strategic decisions supported by accurate and reliable data.",
+        "list": {
+          "title1": "Strategic Consultations",
+          "title2": "Business Consultations",
+          "title3": "Sales Excellence and Customer Service",
+          "title4": "Organizational Transformation",
+          "title5": "Economic Consultations"
+        }
+      }
+    },
+    "reviews": {
+      "title": "Clients Reviews",
+      "review1": {
+        "review": "Ruwyah - Digital Vision completely transformed our experience. Their team understood our needs from the start and built a secure, user-friendly app that meets all our requirements.",
+        "name": "Ahmed Al-Ali",
+        "position": "Investor"
+      },
+      "review2": {
+        "review": "Working with Ruwyah - Digital Vision to upgrade our legacy system produced amazing results. They transformed it into a modern, seamless platform that helped us improve our services.",
+        "name": "Adam Stewards",
+        "position": "Founder & Leader"
+      },
+      "review3": {
+        "review": "Our experience with Ruwyah - Digital Vision was exceptional. They provided a customized program that covered all our needs and significantly streamlined our daily operations.",
+        "name": "Monica Jensen",
+        "position": "Project Manager"
+      },
+      "review4": {
+        "review": "Ruwyah - Digital Vision completely transformed our experience. Their team understood our needs from the start and built a secure, user-friendly app that meets all our requirements.",
+        "name": "Ahmed Al-Ali",
+        "position": "Investor"
+      },
+      "review5": {
+        "review": "Working with Ruwyah - Digital Vision to upgrade our legacy system produced amazing results. They transformed it into a modern, seamless platform that helped us improve our services.",
+        "name": "Adam Stewards",
+        "position": "Founder & Leader"
+      },
+      "review6": {
+        "review": "Our experience with Ruwyah - Digital Vision was exceptional. They provided a customized program that covered all our needs and significantly streamlined our daily operations.",
+        "name": "Monica Jensen",
+        "position": "Project Manager"
+      }
+    },
+    "ourClients": {
+      "title": "Our Clients"
+    },
+    "ourTeam": {
+      "title": "Management Team",
+      "member1": {
+        "name": "Abdulaziz Al-Mutairi",
+        "position": "Chief Executive Officer (CEO)"
+      },
+      "member2": {
+        "name": "Fahd Al-Qahtani",
+        "position": "Chief Technology Officer (CTO)"
+      },
+      "member3": {
+        "name": "Majid Al-Ghamdi",
+        "position": "Business Development Manager"
+      },
+      "member4": {
+        "name": "Salem Al-Dosari",
+        "position": "Product Management Director"
+      },
+      "member5": {
+        "name": "Majid Al-Ghamdi",
+        "position": "Business Development Manager"
+      }
+    },
+
+    "projects": {
+      "country": "Country",
+      "technologies": "Technologies",
+      "button": " See Project ",
+      "title": "Our Projects",
+      "category1": {
+        "name": "Mobile Applications",
+        "projects": {
+          "project1": {
+            "title": "Muslim App",
+            "country": "Saudi Arabia",
+            "description": "Comprehensive Islamic app offering advanced features like prayer times, Quran, Qibla direction, daily prayers, and Zakat calculator to enhance Muslims' spiritual experience."
+          },
+          "project2": {
+            "title": "App 2",
+            "country": "Egypt ",
+            "description": "Comprehensive Islamic app offering advanced features like prayer times, Quran, Qibla direction, daily prayers, and Zakat calculator to enhance Muslims' spiritual experience."
+          }
+        }
+      },
+      "category2": {
+        "name": "Websites",
+        "projects": {
+          "project1": {
+            "title": "Seven Continents",
+            "country": "United Arab Emirates",
+            "description": "Emirati real estate company offering residential and commercial properties including apartments, villas, and luxury projects, with advisory services in Dubai's dynamic market."
+          }
+        }
+      },
+      "category3": {
+        "name": "Digital Marketing",
+        "projects": {
+          "project1": {
+            "title": "Al-Shorfa Restaurants",
+            "country": "United Arab Emirates",
+            "description": "Upscale restaurant and café in Mecca Clock Tower offering international and Asian buffet with direct view of the Holy Mosque, combining Eastern and Western cuisine in luxurious ambiance."
+          }
+        }
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "q1": {
+        "question": "What services does Ruwyah - Digital Vision offer?",
+        "answer": "We offer various software services including website development, applications, custom solutions, and technical consultations."
+      },
+      "q2": {
+        "question": "How can I start working with you on my project?",
+        "answer": "You can contact us through the 'Contact Us' form and submit your project details. Our team will reach out to discuss requirements and next steps."
+      },
+      "q3": {
+        "question": "Do you provide custom software solutions tailored to project needs?",
+        "answer": "Yes, we provide customized software solutions that meet the unique needs of each project after thorough requirements analysis."
+      },
+      "q4": {
+        "question": "What technologies do you use in project development?",
+        "answer": "We use the latest technologies like React, Node.js, Python, with a special focus on selecting the most suitable for each project."
+      },
+      "q5": {
+        "question": "Do you offer post-launch support and maintenance services?",
+        "answer": "We provide comprehensive support packages including regular maintenance, security updates, and ongoing technical support."
+      }
+    }
+  },
+  "AboutSection": {
+    "title": "About Us",
+    "subtitle": "One place that combines luxury and high-end hospitality",
+    "description": "Durra Taibah is not just a collection of hotels, but an experience that combines authentic Arabic traditions with the highest standards of modern hospitality. We strive to provide an unforgettable experience for our guests in every stay.",
+    "rooms": "Rooms and suites",
+    "experience": "Years of experience",
+    "hotels": "Distinctive hotels",
+    "cta": "Get to know us"
+  },
+  "OurBranches": {
+    "our_branches_title": "Hotel Branches",
+    "our_branches_description": "Experience the magic of modern hospitality in multiple locations",
+    "show_All": "Show All",
+    "show_details": "Show Details"
+  },
+  "OurServices": {
+    "our_services_title": "Our Services",
+    "our_services_description": "Services designed to meet your needs",
+    "show_All": "Show All"
+  },
+  "Feedback": {
+    "Feedback_title": "Feedback",
+    "Feedback_description": "What our customers say about Durra Taiba",
+    "Feedback_visite": "Visit Date"
+  },
+  "BlogsSection": {
+    "Blogs_section_title": "Latest Blog Posts",
+    "Blogs_section_description": "Stay updated with our latest travel insights and destination guides",
+    "show_details": "Show Details",
+    "show_All": "View All"
+  },
+  "ContactUsSection": {
+    "ContactUs_section_title": "Contact Us",
+    "ContactUs_section_description": "Get in touch with us for any inquiries or feedback",
+    "contact_info": "Contact Information",
+    "contact_des": "Send us your message, and we’ll be happy to respond.",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "phone_number": "Phone Number",
+    "phone_required": "This field is required",
+    "invalid_phone": "Invalid phone number",
+    "send": "Send"
+  },
+  "SingleHotelPage": {
+    "rate": "Rate",
+    "loading_rooms": "Loading Rooms",
+    "available_rooms": "Available Rooms",
+    "no_rooms_available": "No rooms available",
+    "try_different_search": "Try a different search",
+    "show_details": "Show Details",
+    "add_to_card": "Add to Cart",
+    "description": "Description",
+    "facilities_and_services": "Facilities And Services",
+    "about_hotel": "About Hotel",
+    "sar": "SAR",
+    "for1night": "1 night",
+    "Show50photo": "Show +50 photo",
+    "privacy": "Privacy Policy",
+    "faqs": "FAQs",
+    "location": "Location",
+    "near_places": "Near Places",
+    "similar": "Similar Hotels"
+  },
+  "NearbyLandmarks": {
+    "near_places": "Near Places",
+    "nearest_landmarks": "Nearest 4 landmarks"
+  },
+  "LocationHotel": {
+    "location": "Location"
+  },
+  "PrivacyHotel": {
+    "title": "Privacy Policy"
+  },
+  "FaqsHotel": {
+    "title": "FAQs"
+  },
+  "SimilarHotel": {
+    "title": "Similar Hotels",
+    "show_details": "Show Details"
+  },
+  "terms": {
+    "title": " Terms and Conditions",
+    "description": "Description"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Description"
+  },
+  "faqs": {
+    "title": "FAQs",
+    "description": "Description"
+  },
+  "services": {
+    "title": "Services",
+    "description": "Description"
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "description1": "send us your project details, and we will get in touch with you. Start now and get ready to launch your digital project with full confidence!",
+    "contactFormTitle": "Send your project details",
+    "buttonTitle": "Send",
+    "cardTitle": "We are happy to hear from you",
+    "cardDescription": "If you have any questions, don't hesitate to visit us or send your message, and we will get back to you as soon as possible",
+    "cards": {
+      "card1": {
+        "title": "Contact Us Directly",
+        "description": "You can call during working hours",
+        "data": "(555) 805-9009"
+      },
+      "card2": {
+        "title": "Visit Our Office",
+        "description": "Visit our location in Mecca",
+        "data": "Batha Quraysh, Mecca, Saudi Arabia"
+      },
+      "card3": {
+        "title": "Via Email",
+        "description": "Send an email and you will get a reply"
+      }
+    }
+  },
+  "message": {
+    "title": "Your message has been sent successfully, and we will get back to you as soon as possible."
+  },
+  "projectCard": {
+    "title": "Related Projects",
+    "button": " Details "
+  },
+  "Reservation": {
+    "add_to_card": "Add to Cart",
+    "sar": "SAR",
+    "for1night": "1 night",
+    "night": "night"
+  },
+  "Cart": {
+    "title": "Your Booking Cart",
+    "description": "Review your booking details before completion and enjoy a memorable stay.",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "phone_number": "Phone Number",
+    "phone_required": "This field is required",
+    "invalid_phone": "Invalid phone number",
+    "send": "Send",
+    "selected_rooms": "Selected Rooms",
+    "sar": "SAR",
+    "for1night": "1 night",
+    "night": "night",
+    "Show50photo": "Show +50 photo",
+    "privacy": "Privacy Policy",
+    "faqs": "FAQs",
+    "location": "Location",
+    "near_places": "Near Places",
+    "price": "Price",
+    "total": "Total",
+    "add_to_card": "Add to Cart",
+    "adults": "Adults",
+    "children": "Children",
+    "no_rooms_selected": "No rooms selected",
+    "form_title": "Complete your details to complete the booking",
+    "similar": "Similar Hotels"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Description",
+    "show_details": "Show Details",
+    "all_blogs": "All Blogs"
+  },
+  "about-us": {
+    "title": "About Durra Taibah Hotels Group",
+    "description": "Description"
+  },
+  "banner": {
+    "Ruwyah": "Durra Taibah Hotels",
+    "Ruwyah_description": "Where luxury meets comfort. Choose the perfect hotel from our unique collection and enjoy world-class services in the best locations."
+  },
+  "CustomSearch": {
+    "search": "Search"
+  },
+  "filter": {
+    "hotel_branch": "Hotel Branch",
+    "date": "Date",
+    "filter": "Filter",
+    "rating": "Rating",
+    "1star": "1 star",
+    "2star": "2 stars",
+    "3star": "3 stars",
+    "4star": "4 stars",
+    "5star": "5 stars",
+    "select_hotel": "Select Hotel",
+    "select_date": "Select Date",
+    "children": "Children",
+    "adults": "Adults",
+    "and": "&",
+    "loading": "Loading",
+    "show_results": "Filter",
+    "guests": "Guests",
+    "room_type": "Room Type",
+    "select_room_type": "Select Room Type"
+  },
+  "meta": {
+    "home": {
+      "title": "Ruwyah – Digital Vision | Leading Digital Solutions & Innovation",
+      "description": "Leading Digital Solutions & Innovation",
+      "Ruwyah": "Ruwyah - Digital Vision",
+      "era_skills": "Ruwyah - Digital Vision",
+      "saudi_tech_solutions": "Saudi tech solutions",
+      "technology_solutions_Saudi_Arabia": "technology solutions Saudi Arabia",
+      "digital_transformation": "digital transformation",
+      "app_development": " app development ",
+      "ai_consulting": "AI consulting ",
+      "digital_marketing_saudi": "digital marketing Saudi",
+      "it_consulting": "IT consulting",
+      "website_development_KSA": "website development KSA",
+      "software": "software",
+      "website_programming": "website programming",
+      "app_programming": "app programming"
+    },
+    "about-us-meta": {
+      "title": "About Ruwyah - Digital Vision | About Us",
+      "description": "Leading Digital Solutions & Innovation",
+      "about_Ruwyah": "About Ruwyah - Digital Vision",
+      "tech_company_saudi_arabia": "Tech Company Saudi Arabia",
+      "digital_innovation_ksa": "Digital Innovation KSA",
+      "business_consulting": "Business Consulting",
+      "it_experts_saudi": "IT Experts Saudi",
+      "technology_partner": "Technology Partner"
+    },
+    "blogs": {
+      "title": "Ruwyah – Digital Vision | Blogs",
+      "description": "Ruwyah – Digital Vision | Blogs",
+      "technology_blog": "Technology Blog",
+      "digital_marketing_tips": "Digital Marketing Tips",
+      "ai_insights": "AI Insights",
+      "business_transformation": "Business Transformation",
+      "saudi_tech_news": "Saudi Tech News",
+      "software_development_articles": "Software Development Articles",
+      "Ruwyah_blog": "Ruwyah - Digital Vision Blog"
+    },
+    "contact-us": {
+      "title": "Ruwyah – Digital Vision | Contact Us",
+      "description": "Ruwyah – Digital Vision | Contact Us",
+      "contact_Ruwyah": "Contact Ruwyah - Digital Vision",
+      "get_in_touch_tech_company": "Get in Touch Tech Company",
+      "digital_services_inquiry": "Digital Services Inquiry",
+      "tech_solutions_saudi": "Tech Solutions Saudi",
+      "business_consultation": "Business Consultation",
+      "contact_page": "Contact Page"
+    },
+    "services": {
+      "title": "Ruwyah – Digital Vision | Services",
+      "description": "Ruwyah – Digital Vision | Our Services",
+      "digital_marketing_services": "Digital Marketing Services",
+      "app_development_saudi_arabia": "App Development Saudi Arabia",
+      "ai_solutions": "AI Solutions",
+      "it_consulting_ksa": "IT Consulting KSA",
+      "website_design": "Website Design",
+      "event_management_saudi": "Event Management Saudi",
+      "cybersecurity": "Cybersecurity",
+      "Ruwyah_services": "Ruwyah - Digital Vision Services",
+      "software": "Software"
+    },
+    "hotels": {
+      "title": "Ruwyah – Digital Vision | hotels",
+      "description": "Ruwyah – Digital Vision | hotels",
+      "hotels_in_Saudi_Arabia": "hotels in Saudi Arabia",
+      "Durrat_Tayba_hotels": "Durrat Tayba hotels",
+      "managed_hotels": "managed hotels",
+      "top_Saudi_hotels": "top Saudi hotels"
+    },
+    "terms": {
+      "title": "Ruwyah – Digital Vision | Terms and conditions ",
+      "description": "Ruwyah – Digital Vision | Terms and conditions",
+      "terms_of_service": "Terms of Service",
+      "website_terms": "Website Terms",
+      "Durrat_Tayba_terms": "Durrat Tayba Terms",
+      "conditions_of_use": "Conditions of Use"
+    },
+    "faqs": {
+      "title": "Ruwyah – Digital Vision | Faqs",
+      "description": "Ruwyah – Digital Vision | Faqs",
+      "FAQs": "FAQs",
+      "hotel_management_questions": "hotel management questions",
+      "Durrat_Tayba_help": "Durrat Tayba help",
+      "hospitality_FAQs": "hospitality FAQs"
+    },
+    "projects": {
+      "title": "Ruwyah – Digital Vision | Projects",
+      "description": "Ruwyah – Digital Vision | Projects",
+      "technology_projects_saudi_arabia": "Technology Projects Saudi Arabia",
+      "software_development_case_studies": "Software Development Case Studies",
+      "digital_marketing_success": "Digital Marketing Success",
+      "Ruwyah_portfolio": "Ruwyah - Digital Vision Portfolio",
+      "project_highlights_ksa": "Project Highlights KSA"
+    },
+    "privacy": {
+      "title": "Ruwyah – Digital Vision | Privacy Policy",
+      "description": "Ruwyah – Digital Vision | Privacy Policy",
+      "privacy_policy": "privacy policy",
+      "data_protection": "data protection",
+      "personal_information": "personal information",
+      "Durrat_Tayba_privacy": "Durrat Tayba privacy"
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "button": " project Details   ",
+    "category1": {
+      "name": "Mobile Applications",
+      "projects": {
+        "project1": {
+          "title": "Muslim App",
+          "details": "project Details "
+        },
+        "project2": {
+          "title": "App 2",
+          "details": "project Details "
+        },
+        "project3": {
+          "title": "Muslim App",
+          "details": "project Details "
+        },
+        "project4": {
+          "title": "Muslim App",
+          "details": "project Details "
+        }
+      }
+    },
+    "category2": {
+      "name": "Websites",
+      "projects": {
+        "project1": {
+          "title": "Muslim App",
+          "details": "project Details "
+        },
+        "project2": {
+          "title": "App 2",
+          "details": "project Details "
+        },
+        "project3": {
+          "title": "Muslim App",
+          "details": "project Details "
+        },
+        "project4": {
+          "title": "Muslim App",
+          "details": "project Details "
+        }
+      }
+    },
+    "category3": {
+      "name": "Digital Marketing",
+      "projects": {
+        "project1": {
+          "title": "Muslim App",
+          "details": "project details "
+        },
+        "project2": {
+          "title": "App 2",
+          "details": "project details "
+        },
+        "project3": {
+          "title": "Muslim App",
+          "details": "project details "
+        },
+        "project4": {
+          "title": "Muslim App",
+          "details": "project details "
+        }
+      }
+    }
+  },
+  "success": {
+    "message": "Your message has been sent successfully, we will reply to you as soon as possible."
+  }
+}

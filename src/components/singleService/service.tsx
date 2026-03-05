@@ -1,0 +1,122 @@
+"use client";
+import Container from "@/components/reusableComponent/Container";
+import defaultImg from "@/public/images/navBar/Mask group.svg";
+import Image from "next/image";
+import { useState } from "react";
+
+import arrowLeftWhite from "@/public/images/ourProjects/arrow-left-white.svg";
+import arrowLeft from "@/public/images/ourProjects/arrow-left.svg";
+import image1 from "@/public/images/ourServices/search analytics.svg";
+import image2 from "@/public/images/ourServices/Code.svg";
+import image3 from "@/public/images/ourServices/Consulting.svg";
+import image4 from "@/public/images/ourServices/search analytics2.svg";
+import image5 from "@/public/images/ourServices/Vector.svg";
+import image6 from "@/public/images/ourServices/Vector (1).svg";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const service = ({ data }: { data: any }) => {
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const locale = useLocale();
+
+  const pathname = usePathname();
+  const langCode = pathname.split("/")[1];
+  const isRotated = langCode === "en";
+
+  const t = useTranslations("home.ourservices");
+  const images = [
+    [image1, image4],
+    [image5, image2],
+    [image3, image6],
+  ];
+  return (
+    <Container className="max-w-none xl:container ">
+      <div
+        className="text-[var(--dark-color)] h-full "
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="300"
+      >
+        <h2 className="text-[var(--primary-color)] font-bold text-3xl text-center mb-11">
+          {t("title")}
+        </h2>
+        <p className="text-lg text-center font-medium text-[#473954] mt-6 mb-10">
+          {t("description")}
+        </p>
+
+        <div className="flex flex-col lg:flex-row gap-6 w-full h-full">
+          {data?.map((service: any, index: number) => (
+            <div
+              key={index}
+              className="group flex flex-col gap-5 bg-[var(--light-color)] rounded-2xl w-full lg:w-1/3 p-5 hover:bg-[linear-gradient(to_top_left,_#092D42_0%,_#195368_40%,_#2F7D8F_70%,_#6599A4_100%)] transition-all duration-500 floating-section "
+              onMouseEnter={() => setHoveredCard(index)}
+              onMouseLeave={() => setHoveredCard(null)}
+            >
+              <div className="bg-gradient-to-br from-[#2F7D8F] to-[#092D42] group-hover:from-[var(--light-color)] group-hover:to-[var(--light-color)] rounded-xl w-16 h-16 relative">
+                <Image
+                  src={service?.image?.original_url} // Your main image path
+                  alt={service.title}
+                  width={40}
+                  height={40}
+                  className="absolute inset-0 m-auto opacity-100 group-hover:invert-[0.7]"
+                />
+              </div>
+
+              {/* Text changes to white on hover */}
+              <h3 className="text-2xl font-bold text-[var(--primary-color)] group-hover:text-white transition-colors">
+                {service.title}
+              </h3>
+              <p className="font-medium group-hover:text-white transition-colors">
+                {service.description}
+              </p>
+
+              <ul className="list-disc px-5 space-y-2">
+                {service.subservices.map((item: any, index: number) => (
+                  <li
+                    key={index}
+                    className="group-hover:text-white transition-colors"
+                  >
+                    {item.title}
+                  </li>
+                ))}
+              </ul>
+
+              {/*  Button also changes color on hover */}
+
+              <div className="w-full flex justify-center items-center mt-auto">
+                <Link
+                  href={
+                    service?.slug ? `/${locale}/services/${service.slug}` : "#"
+                  }
+                  className="flex justify-center gap-1.5 bg-[#2F7D8F1A] group-hover:bg-[#F4F1F626] group-hover:text-white text-[16px] text-[var(--primary-color)] py-3 sm:py-4 px-5 w-full rounded-lg transition-all duration-300"
+                >
+                  <span className="group hover:scale-[1.03] transition-all duration-300 inline">
+                    {" "}
+                    {t("button")}
+                    <Image
+                      src={arrowLeft}
+                      alt="arrow left"
+                      className={`group-hover:hidden text-[14px] inline ${
+                        isRotated ? "rotate-180" : ""
+                      }`}
+                    />
+                    <Image
+                      src={arrowLeftWhite}
+                      alt="arrow left white"
+                      className={`hidden group-hover:inline text-[14px]  ${
+                        isRotated ? "rotate-180" : ""
+                      }`}
+                    />
+                  </span>
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Container>
+  );
+};
+
+export default service;
