@@ -13,90 +13,89 @@ import "../../../src/swiperCustomStyles.css";
 import { Autoplay, Navigation } from "swiper/modules";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import { tree } from "next/dist/build/templates/app-page";
 
 
-const designUI =  ({data}:{data:any}) => {
-    const t =  useTranslations("singleProject")
-    const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-    const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-const [hideTimeout, setHideTimeout] = useState(null);
- 
-// Add delay before hiding
-const handleOverlayMouseEnter = () => {
-  if (hideTimeout) {
-    clearTimeout(hideTimeout);
-    setHideTimeout(null);
-  }
-};
-    return (
-        <Container className="relative gap-8 lg:gap-11">
-  <h2 className="text-center text-xl lg:text-[32px] font-bold text-[var(--primary-color)] mb-12">
-    {t("ui_design")}
-  </h2>
+const designUI = ({ data }: { data: any }) => {
+  const t = useTranslations("singleProject")
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  const [hideTimeout, setHideTimeout] = useState(null);
 
-  <div className="flex lg:hidden">
-  <div className="pointer-events-none absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-white to-transparent z-10" />
-  <div className="pointer-events-none absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-white to-transparent z-10" />
-    <Swiper spaceBetween={16} slidesPerView={2}
-      modules={[Navigation, Autoplay]}
-      autoplay={{
-        delay: 2500, 
-        disableOnInteraction: false,
-        waitForTransition: true,
-        pauseOnMouseEnter: true,
-      }}
-      breakpoints={{
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 22,
-        },
-        320: {
-          slidesPerView: 1,
-          spaceBetween: 22,
-        },
-      }}>
-      {data?.map((image: any, index: number) => (
-        <SwiperSlide key={index}>
-          
-          <Image
-            src={image?.original_url || defaultImg}
-            alt="image"
-            width={1000}
-            height={600}
-            className="w-full h-full object-cover"
-          />
-          
-         
-        </SwiperSlide>
-      ))}
-    </Swiper>
-  </div>
+  // Add delay before hiding
+  const handleOverlayMouseEnter = () => {
+    if (hideTimeout) {
+      clearTimeout(hideTimeout);
+      setHideTimeout(null);
+    }
+  };
+  return (
+    <Container className="relative gap-8 lg:gap-11">
+      <h2 className="text-center text-xl lg:text-[32px] font-bold text-[var(--primary-color)] mb-12">
+        {t("ui_design")}
+      </h2>
 
-{/* Grid for large screens */}
-<div className="hidden lg:flex flex-wrap justify-between w-full h-full gap-x-10 xxl:gap-x-20 gap-y-7">
-  {data.map((image: any, index: number) => (
-    <div 
-      key={index} 
-      className="w-1/5 cursor-pointer" 
-      onClick={() => {
-        setHoveredIndex(index);
-        setActiveSlideIndex(index);
-      }}
-    >
-      <Image 
-        src={image?.original_url || defaultImg}
-        alt="image"
-        width={1000}
-        height={600}
-        className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-      />
-    </div>
-  ))}
-</div>
+      <div className="flex lg:hidden">
+        <div className="pointer-events-none absolute top-0 left-0 h-full w-20 bg-gradient-to-r from-white to-transparent z-10" />
+        <div className="pointer-events-none absolute top-0 right-0 h-full w-20 bg-gradient-to-l from-white to-transparent z-10" />
+        <Swiper spaceBetween={16} slidesPerView={2}
+          modules={[Navigation, Autoplay]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+            waitForTransition: true,
+            pauseOnMouseEnter: true,
+          }}
+          breakpoints={{
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 22,
+            },
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 22,
+            },
+          }}>
+          {data?.map((image: any, index: number) => (
+            <SwiperSlide key={index}>
 
-{/* Click Overlay with Zoom and Slider */}
-{/* {hoveredIndex !== null && (
+              <Image
+                src={image?.original_url || defaultImg}
+                alt="image"
+                width={1000}
+                height={600}
+                className="w-full h-full object-cover"
+              />
+
+
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      {/* Grid for large screens */}
+      <div className="hidden lg:flex flex-wrap justify-between w-full h-full gap-x-10 xxl:gap-x-20 gap-y-7">
+        {data.map((image: any, index: number) => (
+          <div
+            key={index}
+            className="w-1/5 cursor-pointer"
+            onClick={() => {
+              setHoveredIndex(index);
+              setActiveSlideIndex(index);
+            }}
+          >
+            <Image
+              src={image?.original_url || defaultImg}
+              alt="image"
+              width={1000}
+              height={600}
+              className="w-full h-full object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Click Overlay with Zoom and Slider */}
+      {/* {hoveredIndex !== null && (
   <div 
     className="fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center transition-opacity duration-300"
     onClick={() => setHoveredIndex(null)}
@@ -169,14 +168,14 @@ const handleOverlayMouseEnter = () => {
 
       {/* Custom Pagination */}
       {/* <div className="swiper-pagination-custom absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"></div> */}
-    {/* </div>
+      {/* </div>
   </div>
-)} */} 
+)} */}
 
-<div className="absolute bottom-0 left-0 w-full h-[45%] bg-gradient-to-t from-white to-transparent" />
+      <div className="absolute bottom-0 left-0 w-full h-[45%] bg-gradient-to-t from-white to-transparent" />
 
-</Container>
-    )
+    </Container>
+  )
 }
 
 export default designUI

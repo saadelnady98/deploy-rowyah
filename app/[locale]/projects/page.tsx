@@ -1,11 +1,5 @@
-import React, { useState } from "react";
-import Image1 from "@/public/images/services/image 4.svg";
+import React from "react";
 import Container from "@/components/reusableComponent/Container";
-import OurProjectsTabs from "@/components/ourProjects/ourProjectsTabs";
-import OurProjectsCards from "@/components/shared/projectsCards/ProjectsCards";
-import Image2 from "@/public/images/projectsCards/A78485AC84B3_A78488B7868A_8484A5B984A785 1.svg";
-import Image3 from "@/public/images/ourProjects/image 4 (1).svg";
-import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { getProjectsData } from "@/lib/serverActions";
 import ProjectsTabsWrapper from "@/components/projects/ProjectsTabWrapper";
@@ -35,7 +29,7 @@ const Page = async ({ params }: any) => {
   const { locale, slug } = await params;
 
   const projects = await getProjectsData(slug, locale);
-   const tansBreadcrumb = await getTranslations("breadcrumb");
+  const tansBreadcrumb = await getTranslations("breadcrumb");
 
   const breadcrumbItems = [
     { label: tansBreadcrumb("home"), href: `/${locale}` },
